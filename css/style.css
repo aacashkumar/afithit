@@ -1,0 +1,73 @@
+
+body{
+        /* color: rgb(255, 255, 255); */
+        /* background-color: rgb(0, 0, 0); */
+
+        background-image: url("img/long121.jpg");
+        /* filter: invert(100%); */
+        background-repeat: repeat-y;
+        margin: 0px 100px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 25px 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+        margin: 0px auto;
+      }
+
+      .left {
+        /* border: 2px solid ghostwhite; */
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+        top: 10px;
+        filter: invert(100%);
+      }
+
+      .mid {
+        /* border: 2px solid ghostwhite; */
+        display: block;
+        position: sticky;
+        margin-top: 30px;
+        margin-left: 180px;
+        width: 60%;
+      }
+
+      .right {
+        /* border: 2px solid ghostwhite; */
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 25px;
+        padding: 5px;
+      }
+
+      .navbar a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 35px;
+      }
+
+      .navbar a:hover,
+      .navbar a.active {
+        text-decoration: underline;
+        color: tomato;
+      }
+
+      .btn {
+        text-decoration: none;
+        color: snow;
+        background-color: #b0b9c0;
+        border: none;
+        cursor: pointer;
+      }
+      .btn:hover {
+        text-decoration: underline;
+        color: tomato;
+      }
+    
+      
